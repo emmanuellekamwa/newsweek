@@ -1,9 +1,16 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 .navbar-toggler {
     margin: 9px 130px;
     font-size: 1.3em;
 }
 
-.row {
+.no-gutters {
     background-color: #f72210;
 }
 
@@ -23,4 +30,16 @@
 .btn-subscribe {
     border-radius: 25px;
     background-color: #ffe400;
+}
+
+.text-muted {
+    font-size: 15px;
+}
+
+.card {
+    border: none;
+}
+
+.figcaption-card {
+    color: #f72210;
 }
