@@ -10,19 +10,21 @@
     font-size: 1.3em;
 }
 
+.right-nav {
+    margin-left: 30px;
+}
+
 .no-gutters {
     background-color: #f72210;
 }
 
 .btn-login {
-    position: relative;
     left: 110px;
 }
 
 .btn {
     line-height: 0.4;
     height: 20px;
-    position: relative;
     top: 14px;
     left: 125px;
 }
@@ -36,10 +38,57 @@
     font-size: 15px;
 }
 
-.card {
-    border: none;
-}
-
 .figcaption-card {
     color: #f72210;
+    height: 10px;
+}
+
+.paragraph {
+    bottom: 30px;
+    width: 48px;
+    height: 30px;
+}
+
+.vs-bar {
+    border-radius: 55%;
+    background-color: black;
+    width: 30px;
+    height: 25px;
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+}
+
+.vs-bar p {
+    padding-left: 4px;
+    color: white;
+}
+
+.title,
+.row-debate-2 {
+    border-bottom: 1px solid lightgray;
+    border-width: 5px;
+}
+
+.debate {
+    height: 60px;
+}
+
+.img-debate {
+    padding: 20px 20px;
+}
+
+.debate-paragraph {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.opinion-span {
+    color: #6c757d;
+}
+
+.row-opinion-1,
+.head {
+    border-bottom: 1px solid lightgray;
 }
