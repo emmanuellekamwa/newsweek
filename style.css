@@ -89,6 +89,12 @@
 }
 
 .row-opinion-1,
-.head {
+.head,
+.row-stories {
     border-bottom: 1px solid lightgray;
+}
+
+.head {
+    bottom: 5px;
+    padding: 7px;
 }
