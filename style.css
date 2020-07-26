@@ -98,3 +98,19 @@
     bottom: 5px;
     padding: 7px;
 }
+
+.card-text {
+    color: #6c757d;
+    font-size: 13px;
+    margin-bottom: 0;
+    bottom: 40px;
+}
+
+.card-p {
+    color: rgba(3, 3, 3, 0.5);
+    bottom: 25px;
+    left: 1px;
+    background-color: rgba(124, 162, 196, 0.8);
+    width: 60px;
+    height: 25px;
+}
