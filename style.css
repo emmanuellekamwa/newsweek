@@ -159,7 +159,8 @@ h3 {
     height: 30px;
 }
 
-.news {
+.news,
+.heading {
     color: #f61602;
 }
 
