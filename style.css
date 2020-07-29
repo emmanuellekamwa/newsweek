@@ -185,3 +185,72 @@ h3 {
     width: 59px;
     height: 35px;
 }
+
+.subscribe {
+    margin: 15px;
+    padding: 30px;
+    background-color: #f4f5f6;
+    height: 56%;
+}
+
+.back-img {
+    left: 110px;
+    top: 0;
+}
+
+.front-img {
+    left: 190px;
+    bottom: 210px;
+}
+
+.info {
+    bottom: 260px;
+}
+
+.subscribe-block {
+    line-height: 28px;
+}
+
+.pelcro-subscribe-button {
+    background-color: #f72310;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 10px 10px 12px;
+    cursor: pointer;
+}
+
+.newsletter-part {
+    bottom: 260px;
+}
+
+.row-newsletter {
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.fa-facebook-square,
+.fa-twitter,
+.fa-instagram,
+.fa-tumblr,
+.fa-linkedin-in {
+    color: #666;
+}
+
+.social {
+    border-bottom: 1px solid lightgray;
+}
+
+.menu {
+    margin-left: 95px;
+    bottom: 45px;
+}
+
+.menu2 {
+    bottom: 50px;
+}
+
+.leaf {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 6px;
+}
