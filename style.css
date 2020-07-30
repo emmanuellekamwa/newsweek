@@ -142,7 +142,7 @@ h3 {
 }
 
 .img-magazine {
-    margin: 35px;
+    /* margin: 35px; */
 }
 
 .card-magazine {
@@ -189,14 +189,9 @@ h3 {
     height: 56%;
 }
 
-.back-img {
-    left: 110px;
-    top: 0;
-}
-
 .front-img {
-    left: 190px;
     bottom: 210px;
+    left: 76px;
 }
 
 .info {
