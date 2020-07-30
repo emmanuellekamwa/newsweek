@@ -5,33 +5,29 @@
     margin: 0;
     padding: 0;
 }
-.navbar-toggler {
-    margin: 9px 130px;
-    font-size: 1.3em;
+
+.navbar {
+    background-color: #f72210;
+    padding: 10px;
 }
 
 .right-nav {
-    margin-left: 30px;
+    margin-left: 203px;
 }
 
-.no-gutters {
-    background-color: #f72210;
-}
-
-.btn-login {
-    left: 110px;
-}
-
-.btn {
-    line-height: 0.4;
-    height: 20px;
-    top: 14px;
-    left: 125px;
-}
-
-.btn-subscribe {
-    border-radius: 25px;
+.subscribe-btn {
     background-color: #ffe400;
+    color: black;
+    padding: 0 12px;
+    margin: 0 10px 0 10px;
+    border-radius: 24px;
+    height: 24px;
+}
+
+.fa-user,
+.fa-bars {
+    color: lightgray;
+    font-size: 18px;
 }
 
 .text-muted {
