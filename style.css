@@ -45,7 +45,6 @@ button {
 
 .us {
     border-right: 1px solid lightgray;
-    text-decoration: none;
 }
 
 .figcaption,
@@ -88,7 +87,7 @@ button {
 .debate-article {
     border-bottom: 3px solid lightgray;
 }
-ssss .full-width {
+.full-width {
     width: 100%;
 }
 
