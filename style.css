@@ -47,6 +47,11 @@ button {
     border-right: 1px solid lightgray;
 }
 
+.story-img {
+    float: left;
+    color: green;
+}
+
 .figcaption,
 .figcaption-card {
     bottom: 0;
