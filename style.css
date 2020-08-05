@@ -15,7 +15,8 @@ button,
     background-color: #f72210;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-user {
     font-size: 45px;
     color: lightgrey;
 }
@@ -195,4 +196,11 @@ h3 {
 
 .fa-facebook-square {
     font-size: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    .img-size {
+        width: 96%;
+        height: auto;
+    }
 }
