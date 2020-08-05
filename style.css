@@ -10,8 +10,14 @@
 }
 
 .div1,
-button {
+button,
+.hidden-nav {
     background-color: #f72210;
+}
+
+.fa-bars {
+    font-size: 45px;
+    color: lightgrey;
 }
 
 .meteo,
@@ -49,7 +55,6 @@ button {
 
 .story-img {
     float: left;
-    color: green;
 }
 
 .figcaption,
@@ -61,7 +66,7 @@ button {
 }
 
 .figcaption-card1 {
-    bottom: 70px;
+    bottom: 16px;
     background-color: rgba(255, 255, 255, 0.9);
     width: 160px;
     height: 30px;
@@ -96,6 +101,14 @@ button {
     width: 100%;
 }
 
+.text-part {
+    font-size: 10px;
+}
+
+/* .avatar2 {
+    margin-left: 190px;
+} */
+
 .full-height {
     height: 100%;
 }
@@ -112,6 +125,10 @@ button {
 
 .vs {
     color: white;
+}
+
+.w-50 {
+    margin-left: 170px;
 }
 
 .jumbotron {

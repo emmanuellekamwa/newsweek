@@ -22,8 +22,37 @@
         <title>Newsweek</title>
     </head>
     <body>
-        <header class="main-navbar container-fluid">
-            <div class="div1 row pt-3 pb-3 pl-4 pr-1 align-items-end">
+        <header class="hidden-nav container-fluid">
+            <nav
+                class="hidden-nav d-flex justify-content-between align-items-end pt-3 pb-3 pl-0 pr-3 d-lg-none d-xl-none"
+            >
+                <a href="#">
+                    <img
+                        src="images/newsweek.png"
+                        alt="newsweek"
+                        width="131"
+                        height="20"
+                    />
+                </a>
+                <div class="d-flex align-items-end flex-row mx-0">
+                    <button class="login-btn font-weight-bold border-0">
+                        LOGIN
+                    </button>
+                    <button class="subscribe-btn font-weight-bold px-3">
+                        SUBSCRIBE >
+                    </button>
+                    <button class="px-2 font-weight-bold btn-icon">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </header>
+        <header
+            class="main-navbar container-fluid d-md-none d-lg-inline-block d-xl-inline-block"
+        >
+            <div
+                class="div1 row pt-3 pb-3 pl-4 pr-1 align-items-end d-lg-flex d-xl-flex"
+            >
                 <div class="meteo d-flex flex-column col-3">
                     <span class="font-weight-bold"
                         ><i class="fas fa-cloud-sun"></i> 30° Barcelona, ES
@@ -49,7 +78,9 @@
                     </button>
                 </div>
             </div>
-            <div class="row header-bottom medium-text py-3">
+            <div
+                class="row header-bottom medium-text py-3 d-md-none d-lg-block d-xl-block"
+            >
                 <a href="#" class="us font-weight-bold px-3 text-dark">U.S.</a>
                 <a href="#" class="us font-weight-bold px-2 text-dark">World</a>
                 <a href="#" class="us font-weight-bold px-2 text-dark"
@@ -83,7 +114,9 @@
                 </a>
                 <!-- <a href="#" class="big-border pl-3 col"></a> -->
             </div>
-            <div class="row trending-topics pt-2 pb-0">
+            <div
+                class="row trending-topics pt-2 pb-0 d-md-none d-lg-flex d-xl-flex"
+            >
                 <p class="trending font-weight-bold text-dark px-3">TRENDING</p>
                 <a href="#" class="text-secondary font-weight-bold px-3"
                     >DONALD TRUMP</a
@@ -103,11 +136,11 @@
             </div>
         </header>
         <main
-            class="container-fluid pt-xl-3 pt-lg-3 mt-xl-0 mt-lg-0 pt-md-5 pt-5 mt-md-5 pt-sm-5 mt-sm-5 mt-5"
+            class="container-fluid pt-xl-3 pt-lg-3 mt-xl-0 mt-lg-0 pt-md-1 pt-5 mt-md-1 pt-sm-5 mt-sm-5 mt-5"
         >
             <div class="row py-4 mx-auto">
                 <section
-                    class="col-sm-12 order-2 order-xl-0 order-lg-0 order-sm-2 mx-auto mb-4 col-lg col-xl col-12 col-md-5"
+                    class="col-sm-12 order-2 order-xl-0 order-lg-0 order-md-1 order-sm-2 mx-auto mb-4 col-lg col-xl col-12 col-md-5"
                 >
                     <h5 class="text-secondary font-weight-bold">
                         FEATURED STORIES
@@ -348,7 +381,7 @@
                     </article>
                 </section>
                 <section
-                    class="col-12 col-lg-5 col-xl-5 col-md-7 col-sm-12 mx-auto"
+                    class="col-12 col-lg-5 col-xl-5 col-md-7 col-sm-12 mx-auto order-md-2"
                 >
                     <div class="row">
                         <h5 class="text-secondary font-weight-bold px-2">
@@ -391,48 +424,48 @@
                                     MY TURN
                                 </h6>
                                 <article
-                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2"
+                                    class="col-12 col-xl-3 col-lg-4 col-md-6 col-sm-12 pr-0 pl-2 py-2"
                                 >
                                     <img
                                         src="images/autism.webp"
                                         alt="autism"
-                                        width="155"
-                                        height="155"
+                                        width="100"
+                                        height="100"
                                     />
                                     <p
-                                        class="px-0 text-secondary font-weight-bold text-part"
+                                        class="px-0 d-flex flex-wrap text-secondary font-weight-bold text-part"
                                     >
                                         'My Son Is Autistic—The Pandemic Has
                                         Separated Us for 4 Months'
                                     </p>
                                 </article>
                                 <article
-                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-5"
+                                    class="col-12 col-xl-3 col-lg-4 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-0"
                                 >
                                     <img
                                         src="images/portland.webp"
                                         alt="portland"
-                                        width="155"
-                                        height="155"
+                                        width="100"
+                                        height="100"
                                     />
                                     <p
-                                        class="px-0 text-secondary font-weight-bold"
+                                        class="px-0 text-secondary font-weight-bold text-part"
                                     >
                                         'Feds Arriving in Portland Dealt a Final
                                         Blow to My Pizzeria'
                                     </p>
                                 </article>
                                 <article
-                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-5"
+                                    class="col-12 col-xl-3 col-lg-4 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-0"
                                 >
                                     <img
                                         src="images/pandemic-walking.webp"
                                         alt="pandemic-walking"
-                                        width="155"
-                                        height="155"
+                                        width="113"
+                                        height="113"
                                     />
                                     <p
-                                        class="px-0 text-secondary font-weight-bold"
+                                        class="px-0 text-secondary font-weight-bold text-part"
                                     >
                                         'I'm 10-Years-Old and Walking 1,700
                                         Miles From Sicily to London'
@@ -449,8 +482,8 @@
                                     <img
                                         src="images/olivia.webp"
                                         alt="olivia"
-                                        width="155"
-                                        height="155"
+                                        width="113"
+                                        height="113"
                                     />
                                     <p
                                         class="px-0 text-secondary font-weight-bold"
@@ -460,13 +493,13 @@
                                     </p>
                                 </article>
                                 <article
-                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-5"
+                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-4"
                                 >
                                     <img
                                         src="images/allyson-felix.webp"
                                         alt="allyson-felix"
-                                        width="155"
-                                        height="155"
+                                        width="113"
+                                        height="113"
                                     />
                                     <p
                                         class="px-0 text-secondary font-weight-bold"
@@ -476,13 +509,13 @@
                                     </p>
                                 </article>
                                 <article
-                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-5"
+                                    class="col-12 col-xl-3 col-lg-3 col-md-6 col-sm-12 pr-0 pl-2 py-2 ml-4"
                                 >
                                     <img
                                         src="images/cocktails.webp"
                                         alt="cocktails"
-                                        width="155"
-                                        height="155"
+                                        width="113"
+                                        height="113"
                                     />
                                     <p
                                         class="px-0 text-secondary font-weight-bold"
@@ -509,9 +542,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -523,7 +553,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -537,9 +566,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -551,7 +577,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -565,9 +590,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -579,7 +601,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -593,9 +614,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -607,7 +625,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -621,9 +638,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -635,7 +649,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -649,9 +662,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -663,7 +673,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -677,9 +686,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -691,7 +697,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -705,9 +710,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -719,7 +721,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -733,9 +734,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -747,7 +745,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -761,9 +758,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -775,7 +769,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="stories col-12 mx-auto px-4 py-1">
@@ -789,9 +782,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -803,7 +793,6 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                         <article class="col-12 mx-auto px-4 py-1">
@@ -817,9 +806,6 @@
                                     width="135"
                                     height="90"
                                 />
-                                <!-- <div
-                                    class="col-8 col-lg-8 col-xl-8 col-md-9 col-sm-8"
-                                > -->
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark"
                                         >White Supremacist David Duke
@@ -831,18 +817,17 @@
                                     KKK leader's account was permanently
                                     suspended for violating Twitter Rules.
                                 </p>
-                                <!-- </div> -->
                             </div>
                         </article>
                     </div>
                 </section>
                 <section
-                    class="col mx-auto pl-4 order-3 order-lg-0 order-md-0 order-xl-0 order-sm-3"
+                    class="col mx-auto pl-4 order-3 order-lg-3 order-md-3 order-xl-3 order-sm-3"
                 >
                     <h6 class="debate font-weight-bold text-secondary">
                         THE DEBATE
                     </h6>
-                    <article class="debate-article row pl-3 py-4">
+                    <article class="debate-article row pl-0 pt-2">
                         <div class="d-flex flex-row">
                             <div class="img-debate col-3">
                                 <img
@@ -864,10 +849,10 @@
                                 <span class="font-weight-bold">MARC LEVIN</span>
                             </div>
                         </div>
-                        <div class="vs-bar position-relative mt-3">
+                        <!-- <div class="vs-bar position-relative mt-3 my-5">
                             <p class="vs pl-1">VS</p>
-                        </div>
-                        <div class="d-flex flex-row mt-3">
+                        </div> -->
+                        <div class="d-flex flex-row mt-5">
                             <div class="img-debate col-9">
                                 <h6 class="font-weight-bold">
                                     <a href="#" class="text-dark">
@@ -883,7 +868,7 @@
                                 <img
                                     src="images/rafael-mangual.webp"
                                     alt="rafael-mangual"
-                                    class="avatar"
+                                    class="avatar2"
                                     width="63"
                                     height="65"
                                 />
@@ -1013,7 +998,7 @@
                             >
                         </div>
                     </article>
-                    <article class="border mb-4 mt-3">
+                    <article class="border mb-4 mt-3 w-50">
                         <div class="position-relative">
                             <div class="position-absolute figcaption-card">
                                 <a href="#" class="font-weight-bold"
@@ -1023,9 +1008,9 @@
                             <img
                                 src="images/saudi.jpg"
                                 alt="saudi"
-                                class="full-height full-width"
-                                width="359"
-                                height="237"
+                                class="full-height"
+                                width="348"
+                                height="107"
                             />
                         </div>
                         <h4 class="pt-2 px-4">
@@ -1071,7 +1056,7 @@
                             </div>
                         </div>
                     </div>
-                    <article class="border mb-4 mt-5">
+                    <article class="border mb-4 mt-5 w-50">
                         <div class="position-relative">
                             <div class="position-absolute figcaption-card">
                                 <a href="#" class="font-weight-bold"
@@ -1082,8 +1067,8 @@
                                 src="images/coding-school.webp"
                                 alt="coding-school"
                                 class="full-height full-width"
-                                width="359"
-                                height="237"
+                                width="348"
+                                height="107"
                             />
                         </div>
                         <h4 class="pt-2 px-4">
@@ -1097,14 +1082,14 @@
                             to think about a career in coding.
                         </p>
                     </article>
-                    <article class="mb-4 mt-5 border">
+                    <article class="mb-4 mt-5 border w-50">
                         <div class="position-relative border-0">
                             <img
                                 src="images/nursing.webp"
                                 alt="nursing"
                                 class="full-height full-width"
-                                width="359"
-                                height="237"
+                                width="348"
+                                height="107"
                             />
                         </div>
                         <h4 class="pt-2 px-4">
@@ -1120,7 +1105,7 @@
                             in our survey.
                         </p>
                     </article>
-                    <article class="border mb-4 mt-5">
+                    <article class="border mb-4 mt-5 w-50">
                         <div class="position-relative">
                             <div class="position-absolute figcaption-card">
                                 <a href="#" class="font-weight-bold">RANKING</a>
@@ -1129,8 +1114,8 @@
                                 src="images/infection.webp"
                                 alt="infection"
                                 class="full-height full-width"
-                                width="359"
-                                height="237"
+                                width="348"
+                                height="107"
                             />
                         </div>
                         <h4 class="pt-2 px-4">
@@ -1171,9 +1156,9 @@
                     <img
                         src="images/july.webp"
                         alt="july"
-                        class="full-width"
-                        width="290"
-                        height="387"
+                        class="full-width mt-5"
+                        width="300"
+                        height="370"
                     />
                 </div>
                 <!-- <div>
@@ -1182,13 +1167,13 @@
                     >
                 </div> -->
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/fea.webp"
                         alt="fea"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1205,13 +1190,13 @@
                     </div>
                 </article>
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/fea.webp"
                         alt="fea"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1228,13 +1213,13 @@
                     </div>
                 </article>
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/fea.webp"
                         alt="fea"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1251,13 +1236,13 @@
                     </div>
                 </article>
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/lara-logan.webp"
                         alt="lara-logan"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1274,13 +1259,13 @@
                     </div>
                 </article>
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/lara-logan.webp"
                         alt="lara-logan"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1297,13 +1282,13 @@
                     </div>
                 </article>
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/lara-logan.webp"
                         alt="lara-logan"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1320,13 +1305,13 @@
                     </div>
                 </article>
                 <article
-                    class="col-12 col-xl-3 col-lg-3 col-md-4 col-sm-12 pt-5"
+                    class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 pt-5"
                 >
                     <img
                         src="images/lara-logan.webp"
                         alt="lara-logan"
-                        width="289"
-                        height="289"
+                        width="285"
+                        height="165"
                         class="full-width"
                     />
                     <div class="magazine-title mt-3">
@@ -1585,8 +1570,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1600,8 +1585,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1611,56 +1596,50 @@
                         </h3>
                     </article>
                     <div class="col-4">
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <p class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </p>
-                            </div>
+                            <p class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </p>
                         </article>
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="row px-0 pb-2 mx-0 mb-2">
+                        <article class="px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
                     </div>
                 </section>
@@ -1673,8 +1652,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1688,8 +1667,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1699,56 +1678,50 @@
                         </h3>
                     </article>
                     <div class="col-4">
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="row px-0 pb-2 mx-0 mb-2">
+                        <article class="px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
                     </div>
                 </section>
@@ -1761,8 +1734,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1776,8 +1749,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1787,56 +1760,50 @@
                         </h3>
                     </article>
                     <div class="col-4">
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="row px-0 pb-2 mx-0 mb-2">
+                        <article class="px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
                     </div>
                 </section>
@@ -1849,8 +1816,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1864,8 +1831,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1875,56 +1842,50 @@
                         </h3>
                     </article>
                     <div class="col-4">
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="row px-0 pb-2 mx-0 mb-2">
+                        <article class="px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
                     </div>
                 </section>
@@ -1937,8 +1898,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1952,8 +1913,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -1963,56 +1924,50 @@
                         </h3>
                     </article>
                     <div class="col-4">
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="row px-0 pb-2 mx-0 mb-2">
+                        <article class="px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
                     </div>
                 </section>
@@ -2025,8 +1980,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -2040,8 +1995,8 @@
                             src="images/house.webp"
                             alt="house"
                             class="full-width"
-                            width="396"
-                            height="264"
+                            width="300"
+                            height="200"
                         />
                         <h3 class="pt-2">
                             <a href="#" class="text-dark"
@@ -2051,56 +2006,50 @@
                         </h3>
                     </article>
                     <div class="col-4">
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="sub-content row px-0 pb-2 mx-0 mb-2">
+                        <article class="sub-content px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
-                        <article class="row px-0 pb-2 mx-0 mb-2">
+                        <article class="px-0 pb-2 mx-0 mb-2">
                             <img
                                 src="images/drone.webp"
                                 alt="drone"
-                                class="pl-0"
+                                class="pl-0 story-img mr-3"
                                 width="135"
                                 height="90"
                             />
-                            <div class="col-7">
-                                <h5 class="font-weight-bold">
-                                    <a href="#" class="text-dark">
-                                        White Woman Accuses Black Real Estate
-                                        Photographer of Filming Women
-                                    </a>
-                                </h5>
-                            </div>
+                            <h5 class="font-weight-bold">
+                                <a href="#" class="text-dark">
+                                    White Woman Accuses Black Real Estate
+                                    Photographer of Filming Women
+                                </a>
+                            </h5>
                         </article>
                     </div>
                 </section>
@@ -2161,12 +2110,12 @@
                         <h4 class="head col-12 pt-4 px-0 font-weight-bold">
                             NEWSLETTER
                         </h4>
-                        <article
-                            class="col-12 px-0 border-all-grey half-height"
-                        >
+                        <article class="col-12 px-0 half-height">
                             <div class="d-flex flex-row">
-                                <div class="img-block col-6"></div>
-                                <div class="py-5 mt-3 ml-5">
+                                <div
+                                    class="img-block col-lg-6 col-xl-6 col-md-3"
+                                ></div>
+                                <div class="py-5 ml-5">
                                     <h3 class="font-weight-bold text-dark">
                                         Starting 5
                                     </h3>
