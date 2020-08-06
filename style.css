@@ -46,6 +46,13 @@ button,
     border-bottom: 1px solid lightgray;
 }
 
+.figcaption a,
+.figcaption-card1,
+.block-title,
+.head {
+    color: #f72210;
+}
+
 .header-bottom a:hover {
     color: #f72210;
 }
@@ -73,13 +80,6 @@ button,
     height: 30px;
 }
 
-.figcaption a,
-.figcaption-card1,
-.block-title,
-.head {
-    color: #f72210;
-}
-
 .paragraph,
 .link,
 .title,
@@ -98,6 +98,7 @@ button,
 .debate-article {
     border-bottom: 3px solid lightgray;
 }
+
 .full-width {
     width: 100%;
 }
