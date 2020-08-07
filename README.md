@@ -2,7 +2,7 @@
 
 > Working with Bootstrap
 
-![screenshot](images/news.PNG)
+![screenshot](./images/news.PNG)
 
 This project was built with the bootstrap framework and it had as major objective to test our mastery of bootstrap and how to use it effectively and correctly so as to built future web pages.
 
