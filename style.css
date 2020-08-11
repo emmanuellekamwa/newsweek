@@ -1,76 +1,76 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    list-style-type: none;
-    border: none;
-    margin: 0;
-    padding: 0;
-    font-size: 16px !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  list-style-type: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px !important;
 }
 
 .div1,
 button,
 .hidden-nav {
-    background-color: #f72210;
+  background-color: #f72210;
 }
 
 .fa-bars,
 .fa-user {
-    font-size: 45px;
-    color: lightgrey;
+  font-size: 45px;
+  color: lightgrey;
 }
 
 .subscribe-btn {
-    background-color: #ffe400;
-    padding: 12px;
-    border-radius: 24px;
-    height: 24px;
+  background-color: #ffe400;
+  padding: 12px;
+  border-radius: 24px;
+  height: 24px;
 }
 
 .big-border {
-    border-top: 15px solid #f72210;
-    border-left: 15px solid transparent;
-    margin-top: -16px;
+  border-top: 15px solid #f72210;
+  border-left: 15px solid transparent;
+  margin-top: -16px;
 }
 
 .header-bottom,
 .trending-topics {
-    border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .figcaption a,
 .figcaption-card1,
 .block-title,
 .head {
-    color: #f72210;
+  color: #f72210;
 }
 
 .header-bottom a:hover {
-    color: #f72210;
+  color: #f72210;
 }
 
 .us {
-    border-right: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 
 .story-img {
-    float: left;
+  float: left;
 }
 
 .figcaption,
 .figcaption-card {
-    bottom: 0;
-    width: auto;
-    padding: 5px 20px;
-    background-color: rgba(252, 252, 252, 0.9);
+  bottom: 0;
+  width: auto;
+  padding: 5px 20px;
+  background-color: rgba(252, 252, 252, 0.9);
 }
 
 .figcaption-card1 {
-    bottom: 8px;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 160px;
-    height: 30px;
+  bottom: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 160px;
+  height: 30px;
 }
 
 .paragraph,
@@ -84,107 +84,113 @@ button,
 .sub-content,
 .subscribe-section,
 .top-footer {
-    border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
 }
 
 .debate,
 .debate-article {
-    border-bottom: 3px solid lightgray;
+  border-bottom: 3px solid lightgray;
 }
 
 .full-width {
-    width: 100%;
+  width: 100%;
 }
 
 .text-part {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .full-height {
-    height: 100%;
+  height: 100%;
 }
 
 .w-50 {
-    margin-left: 170px;
+  margin-left: 170px;
 }
 
 .jumbotron {
-    border: 1px solid #e5e5e5;
-    background-color: #f4f5f6;
-    width: 280px;
-    margin: 10px auto;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  width: 280px;
+  margin: 10px auto;
 }
 
 h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .free-signup input {
-    width: 80%;
-    height: 41px;
-    margin-top: 10px;
+  width: 100%;
+  height: 41px;
+  margin-top: 10px;
 }
 
 .form-text {
-    width: 100%;
-    height: 31px;
-    color: #555;
-    border: 1px solid #e0e1e1;
+  width: 100%;
+  height: 31px;
+  color: #555;
+  border: 1px solid #e0e1e1;
 }
 
 .form-submit {
-    background-color: #f61602;
-    border-radius: 4px;
+  background-color: #f61602;
+  border-radius: 4px;
 }
 
 .free-signup1 input {
-    width: 80%;
-    height: 41px;
-    margin-top: 10px;
+  width: 80%;
+  height: 41px;
+  margin-top: 10px;
 }
 
 .form-text1 {
-    width: 100%;
-    height: 31px;
-    color: #555;
-    border: 1px solid #e0e1e1;
+  width: 100%;
+  height: 31px;
+  color: #555;
+  border: 1px solid #e0e1e1;
 }
 
 .form-submit1 {
-    background-color: #f61602;
-    border-radius: 4px;
+  background-color: #f61602;
+  border-radius: 4px;
 }
 
 .cover {
-    background-color: #f61602;
+  background-color: #f61602;
 }
 
 .news {
-    color: #f61602;
+  color: #f61602;
 }
 
 .front-img {
-    top: 25px;
-    left: 80px;
+  top: 25px;
+  left: 80px;
+}
+
+.mag-btn {
+  display: block;
+  width: 100%;
+  border-color: #f4f5f6;
 }
 
 .part1 {
-    background-color: #f4f5f6;
+  background-color: #f4f5f6;
 }
 
 .pelcro-subscribe-button {
-    background-color: #f72310;
-    border-radius: 4px;
-    padding: 10px 10px 10px 12px;
-    cursor: pointer;
+  background-color: #f72310;
+  border-radius: 4px;
+  padding: 10px 10px 10px 12px;
+  cursor: pointer;
 }
 
 .img-block {
-    background: url("images/homepage.png") center/contain no-repeat;
-    background-size: cover;
-    height: 345px;
+  background: url("images/homepage.png") center/contain no-repeat;
+  background-size: cover;
+  height: 345px;
 }
 
 .fa-facebook-square {
-    font-size: 25px;
+  font-size: 25px;
 }
