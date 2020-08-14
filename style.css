@@ -71,13 +71,18 @@ button,
   background-color: rgba(252, 252, 252, 0.9);
 }
 
+.section1 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 38px;
+}
+
 .vs-part {
   width: 30px;
   height: 30px;
   background: black;
   border-radius: 50%;
-  top: 20px;
-  left: 130px;
+  top: 3.7%;
+  left: 55%;
 }
 
 .label {
