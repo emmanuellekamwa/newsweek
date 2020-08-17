@@ -20,10 +20,6 @@ button,
   top: 0;
 }
 
-.main-navbar {
-  z-index: 2;
-}
-
 .fa-bars,
 .fa-user {
   font-size: 45px;
@@ -85,8 +81,8 @@ button,
   height: 30px;
   background: black;
   border-radius: 50%;
-  top: 3.7%;
-  left: 55%;
+  top: 4.2%;
+  left: 48%;
 }
 
 .label {
@@ -234,8 +230,6 @@ h3 {
 .img-block {
   background: url("images/homepage.png") center/contain no-repeat;
   background-size: cover;
-
-  /* height: 380px; */
   height: 70vh;
 }
 
@@ -246,5 +240,14 @@ h3 {
 @media only screen and (max-width: 767px) {
   .magazine {
     border-bottom: 0;
+  }
+
+  .vs-part {
+    top: 1.8%;
+    left: 42%;
+  }
+
+  .figcaption-card1 {
+    top: 90%;
   }
 }

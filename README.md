@@ -14,7 +14,7 @@ This project was built with the bootstrap framework and it had as major objectiv
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/emmanuellekamwa/newsweek/tree/feature-branch/index.html)
+[Live Demo Link](https://raw.githack.com/emmanuellekamwa/newsweek/feature-branch/index.html)
 
 ## Author
 
