@@ -47,10 +47,7 @@ button,
 .figcaption a,
 .figcaption-card1,
 .block-title,
-.head {
-  color: #f72210;
-}
-
+.head,
 .header-bottom a:hover {
   color: #f72210;
 }
@@ -150,7 +147,8 @@ h3 {
   font-size: 20px;
 }
 
-.free-signup input {
+.free-signup input,
+.free-signup1 input {
   width: 100%;
   height: 41px;
   margin-top: 10px;
@@ -163,15 +161,10 @@ h3 {
   border: 1px solid #e0e1e1;
 }
 
-.form-submit {
+.form-submit,
+.form-submit1 {
   background-color: #f61602;
   border-radius: 4px;
-}
-
-.free-signup1 input {
-  width: 100%;
-  height: 41px;
-  margin-top: 10px;
 }
 
 .form-text1 {
@@ -179,11 +172,6 @@ h3 {
   height: 31px;
   color: #555;
   border: 1px solid #e0e1e1;
-}
-
-.form-submit1 {
-  background-color: #f61602;
-  border-radius: 4px;
 }
 
 .cover {
